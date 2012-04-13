@@ -1,7 +1,7 @@
-.idea
+/.idea
 *.iml
 *.sublime*
-node_modules
-target
-lib
-npm-debug.log
+/node_modules
+/target
+/lib
+/npm-debug.log
