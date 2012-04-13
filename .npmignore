@@ -1,0 +1,11 @@
+.gitignore
+.npmignore
+.idea/
+*.iml
+*.sublime*
+src/
+test/
+spec/
+Cakefile
+monitor-specs
+npm-debug.log

@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+
+if (!process.env.NODE_ENV) process.env.NODE_ENV = 'test';
+
+require(__dirname + '/../lib/Main');

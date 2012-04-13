@@ -1,0 +1,36 @@
+{
+  "author": "Nikita Volkov <nikita.y.volkov@mail.ru> (http://www.flipart.ru)",
+  "name": "Robusta",
+  "description": "A CoffeeScript extension that introduces a packaging system and support for convenient import statements",
+  "keywords": ["coffeescript", "precompiler", "imports", "packages"],
+  "version": "0.1.0",
+  "homepage": null,
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/nikita-volkov/Robusta"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.github.com/nikita-volkov/Robusta/master/LICENSE"
+    }
+  ],
+  "main": "lib/Robusta.js",
+  "bin": {
+    "robusta": "bin/robusta"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "fuell-doc-test"
+  },
+  "dependencies": {
+    "Fuell": "0.2.x",
+    "FuellSys": "0.1.x",
+    "coffee-script": ">1.2.0"
+  },
+  "devDependencies": {
+    "FuellDocTest": "0.3.x"
+  }
+}
