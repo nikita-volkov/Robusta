@@ -3,7 +3,7 @@
   "name": "Robusta",
   "description": "A CoffeeScript extension that introduces a packaging system and support for convenient import statements",
   "keywords": ["coffeescript", "precompiler", "imports", "packages"],
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": null,
   "repository": {
     "type": "git",
