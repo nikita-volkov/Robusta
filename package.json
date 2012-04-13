@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "Fuell": "0.2.x",
-    "FuellSys": "0.1.x",
+    "FuellSys": ">0.2.0 <0.3",
     "coffee-script": ">1.2.0"
   },
   "devDependencies": {
