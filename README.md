@@ -6,25 +6,29 @@ This utility removes a decent portion of boilerplate from CoffeeScript modules m
 
 1. Importing members locally:
   Standard CoffeeScript code:
+    
     {print, puts, debug, error, inspect, p, log, exec, pump, inherits} = require "util"
+
   Robusta code:
+    
     import * from util
+    
 2. Managing `exports`. The headache of managing exports is a well known issue. Robusta addresses it:
 
-  Generated CoffeeScript code:
-    a = ->
-    b = 0
-    c = 0
+      Generated CoffeeScript code:
+        a = ->
+        b = 0
+        c = 0
 
-    exports.a = a
-    exports.b = b
-    exports.c = c
-  Robusta code:
-    export *
+        exports.a = a
+        exports.b = b
+        exports.c = c
+      Robusta code:
+        export *
 
-    a = ->
-    b = 0
-    c = 0
+        a = ->
+        b = 0
+        c = 0
 
 3. The absolute/relative paths confusion. In Robusta all import paths are absolute - no matter whether it's a `node_modules` dependency or a local module. Please see this [example](https://github.com/nikita-volkov/Robusta/tree/master/examples/local-imports).
 
