@@ -5,17 +5,19 @@ A CoffeeScript extension that introduces a packaging system and support for conv
 This utility removes a decent portion of boilerplate from CoffeeScript modules management by addressing several problems of the classic `require`-`exports` approach:
 
 1. Importing members locally:
-  Standard CoffeeScript code:
-    
-    {print, puts, debug, error, inspect, p, log, exec, pump, inherits} = require "util"
 
-  Robusta code:
-    
-    import * from util
-    
+    Standard CoffeeScript code:
+        
+        {print, puts, debug, error, inspect, p, log, exec, pump, inherits} = require "util"
+
+    Robusta code:
+        
+        import * from util
+
 2. Managing `exports`. The headache of managing exports is a well known issue. Robusta addresses it:
 
-      Generated CoffeeScript code:
+    Generated CoffeeScript code:
+
         a = ->
         b = 0
         c = 0
@@ -23,7 +25,9 @@ This utility removes a decent portion of boilerplate from CoffeeScript modules m
         exports.a = a
         exports.b = b
         exports.c = c
-      Robusta code:
+        
+    Robusta code:
+
         export *
 
         a = ->
