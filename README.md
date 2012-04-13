@@ -25,7 +25,7 @@ This utility removes a decent portion of boilerplate from CoffeeScript modules m
         exports.a = a
         exports.b = b
         exports.c = c
-        
+
     Robusta code:
 
         export *
@@ -34,9 +34,9 @@ This utility removes a decent portion of boilerplate from CoffeeScript modules m
         b = 0
         c = 0
 
-3. The absolute/relative paths confusion. In Robusta all import paths are absolute - no matter whether it's a `node_modules` dependency or a local module. Please see this [example](https://github.com/nikita-volkov/Robusta/tree/master/examples/local-imports).
+3. The absolute/relative paths confusion. In Robusta all import paths are absolute - no matter whether it's a `node_modules` dependency or a local module. Please see this [example](./examples/local-imports).
 
-You will find out a lot of other niceties about Robusta. Please check out the sample code [here](https://github.com/nikita-volkov/Robusta/tree/master/examples/).
+You will find out a lot of other niceties about Robusta. Please check out the sample code [here](./examples/).
 
 Robusta transcompiles the code into either the standard CoffeeScript or directly into JavaScript. Following is its command line usage info:
 
