@@ -1,6 +1,6 @@
 # Robusta
 
-A CoffeeScript extension that introduces a packaging system and support for convenient import statements
+A CoffeeScript transcompiler that introduces a packaging system and support for convenient import statements.
 
 This utility removes a decent portion of boilerplate from CoffeeScript modules management by addressing several problems of the classic `require`-`exports` approach:
 
