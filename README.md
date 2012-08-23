@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/nikita-volkov/Robusta.png)](http://travis-ci.org/nikita-volkov/Robusta)
 # Robusta
 
 A CoffeeScript extension that introduces a packaging system and support for convenient import statements
